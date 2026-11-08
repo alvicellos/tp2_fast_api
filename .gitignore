@@ -1,0 +1,8 @@
+.venv
+tp2.code-workspace
+__pycache__
+__pycache__/*
+*/pycache
+*/__pycache__/*
+*/.env
+.env
