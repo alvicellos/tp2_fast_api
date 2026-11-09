@@ -6,7 +6,7 @@ def traduzir(texto):
         "http://127.0.0.1:8000/translate",
         params={"text_eng": texto}
     )
-    return resposta.json()["translated_text"]
+    return resposta.json()["texto_traduzido"]
 
 if __name__ == "__main__" and sys.argv[1] != None :
     texto = sys.argv[1]
